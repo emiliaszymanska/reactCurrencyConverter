@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# eslint cache
+.eslintcache
+
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+*.iml
+/.changelog
+.npm/
+*.tgz
