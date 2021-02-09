@@ -60,7 +60,8 @@ const CurrencyItem = (props) => {
           {amount} {fromCurrency} ={" "}
         </span>{" "}
         <span className="result to">
-          {calculatedAmount} {toCurrency}
+          {calculatedAmount.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, "$&,")}{" "}
+          {toCurrency}
         </span>
       </div>
     </div>
